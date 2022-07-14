@@ -1,0 +1,20 @@
+<html>
+
+
+
+<canvas id="graph" width="400" height="400"></canvas>
+<script>
+    var canvas = document.getElementById('graph');
+    var ctx = canvas.getContext('2d');
+    ctx.beginPath();
+    ctx.lineWidth = "2";
+    ctx.strokeStyle = "grey";
+    ctx.rect(40, 40, 300, 300);
+    ctx.stroke();
+    ctx.beginPath();
+    ctx.moveTo(39, 100);
+    ctx.lineTo(350, 100);
+    ctx.stroke();
+</script>
+
+</html>
